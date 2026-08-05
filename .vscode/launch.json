@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "bookia_app",
+      "request": "launch",
+      "type": "dart",
+      "toolArgs": [
+        "--android-skip-build-dependency-validation"
+      ]
+    }
+  ]
+}

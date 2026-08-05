@@ -1,0 +1,25 @@
+{
+
+
+"splash_screen_title": "اطلب كتابك الآن !",
+"dark_mode": "الوضع الداكن",
+"light_mode": "الوضع الفاتح",
+"english": "الإنجليزية",
+"login":"تسجيل الدخول",
+"register":"انشاء حساب",
+"welcome_back": "مرحباً بك! سعيد برأيتك، مرة أخرى!",
+"enter_email": "أدخل بريدك الإلكتروني",
+"enter_password": "أدخل كلمة المرور الخاصة بك",
+"forgot_password": "نسيت كلمة المرور؟",
+"don’t have an account? Register Now": "ليس لديك حساب؟ سجل الآن",
+"hello! Register to get started": "مرحباً! سجل للبدء",
+"username": "اسم المستخدم",
+"email": "البريد الإلكتروني",
+"password": "كلمة المرور",
+"confirm_password": "تأكيد كلمة المرور",
+"already_have_an_account? Login Now": "هل لديك حساب؟ سجل الدخول الآن"
+
+
+
+
+}
