@@ -1,24 +1,41 @@
 
 
 import 'package:flutter/material.dart';
-class CustomTextField extends StatelessWidget {
+class CustomTextField extends StatefulWidget {
   final String hintText;
-  final bool?obscureText;
+  final TextInputType? keyboardType;
+  final bool isPassword;
 
   const CustomTextField({
     super.key,
     required this.hintText,
-    this.obscureText = false,
+    this.keyboardType,
+    this.isPassword = false,
   });
 
   @override
+  State<CustomTextField> createState() => _CustomTextFieldState();
+}
+
+class _CustomTextFieldState extends State<CustomTextField> {
+  bool isObscure= true;
+  @override
   Widget build(BuildContext context) {
     return TextFormField(
+      keyboardType : widget.keyboardType,
+      obscureText:widget.isPassword && isObscure,
       onTapOutside: (_) {
         FocusScope.of(context).unfocus();
       },
       decoration: InputDecoration(
-        hintText: hintText,
+        suffixIcon:widget.isPassword? InkWell(
+          onTap:(){
+            setState((){
+            isObscure=!isObscure;
+            });
+          },
+          child: Icon(isObscure?Icons.visibility:Icons.visibility_off)):null,
+        hintText: widget.hintText,
       ),
     );
   }

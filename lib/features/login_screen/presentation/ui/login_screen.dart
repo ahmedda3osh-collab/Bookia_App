@@ -23,25 +23,28 @@ class LoginScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SizedBox(height: 30.h),
+            30.verticalSpace,
             Text(LocaleKeys.welcome_back.tr(), style: 
             Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight:
              FontWeight.bold)),
-             SizedBox(height: 32.h),
+             32.verticalSpace,
              CustomTextField(
               hintText: LocaleKeys.enter_email.tr(),
+              keyboardType:TextInputType.emailAddress
              ),
-              SizedBox(height: 15.h),
+             15.verticalSpace,
              CustomTextField(
               hintText: LocaleKeys.enter_password.tr(),
+              keyboardType: TextInputType.visiblePassword,
+              isPassword: true,
              ),
-              SizedBox(height: 25.h),
+             25.verticalSpace,
               Padding(
                 padding:  EdgeInsets.only(left: 220.0),
                 child: Text(LocaleKeys.forgot_password.tr(), style: Theme.of(context).textTheme.titleSmall
                 ),
               ),
-             SizedBox(height: 70.h),
+             70.verticalSpace,
              AppButton(
               text: LocaleKeys.login.tr(),
               onTap: (){},

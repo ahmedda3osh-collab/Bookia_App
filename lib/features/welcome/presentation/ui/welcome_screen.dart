@@ -1,6 +1,6 @@
+import 'package:bookia_app/core/helper/extentions.dart';
+import 'package:bookia_app/core/routes/routes.dart';
 import 'package:bookia_app/core/widgets/app_button.dart';
-import 'package:bookia_app/features/login_screen/presentation/ui/login_screen.dart';
-import 'package:bookia_app/features/register/presentation/ui/register_screen.dart';
 import 'package:bookia_app/features/welcome/presentation/ui/widgets/toggel_mode.dart';
 import 'package:bookia_app/gen/assets.gen.dart';
 import 'package:bookia_app/gen/locale_keys.g.dart';
@@ -25,27 +25,27 @@ class WelcomeScreen extends StatelessWidget {
         ),
         child: Column(
           children: [
-            SizedBox(height: 151.h),
+            151.verticalSpace,
             Assets.images.splashLogo.image(height: 66, width: 210),
-            SizedBox(height: 28.h),
+            28.verticalSpace,
             Text(
               LocaleKeys.splash_screen_title.tr(), 
               style: Theme.of(context).textTheme.titleMedium,
             ),
-            SizedBox(height: 28.h),
+            28.verticalSpace,
             ToggleMode(),
-            SizedBox(height: 150.h),
+            150.verticalSpace,
                   AppButton(text :LocaleKeys.login.tr(),
                     onTap: (){
-                      Navigator.push(context,
-                       MaterialPageRoute(builder: (context) => const LoginScreen()));
+                     
+                      context.pushNamed(Routes.loginScreen);
                     },
                   ),
-                  SizedBox(height: 15.h),
+                  15.verticalSpace,
                   AppButton(text :LocaleKeys.register.tr(), backgroundColor: Colors.white,
                     onTap: (){
-                       Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => const RegisterScreen()));
+                        
+                      context.pushNamed(Routes.registerScreen);
                     },
                   ),
           ],

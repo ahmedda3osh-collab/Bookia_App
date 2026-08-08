@@ -26,16 +26,26 @@ class RegisterScreen extends StatelessWidget {
              FontWeight.bold)),
               SizedBox(height: 32.h),
               CustomTextField(
-              hintText: LocaleKeys.username.tr(),),
+              hintText: LocaleKeys.username.tr(),
+              keyboardType:TextInputType.name
+              ),
               SizedBox(height: 11.h),
               CustomTextField(
-              hintText: LocaleKeys.email.tr(),),
+              hintText: LocaleKeys.email.tr(),
+              keyboardType:TextInputType.emailAddress
+              ),
               SizedBox(height: 11.h),
               CustomTextField(
-              hintText: LocaleKeys.password.tr(),),
+              hintText: LocaleKeys.password.tr(),
+              keyboardType: TextInputType.visiblePassword,
+              isPassword: true,
+              ),
               SizedBox(height: 11.h),
               CustomTextField(
-              hintText: LocaleKeys.confirm_password.tr(),),
+              hintText: LocaleKeys.confirm_password.tr(),
+              keyboardType: TextInputType.visiblePassword,
+              isPassword: true,
+              ),
               SizedBox(height: 70.h),
               AppButton(
                 text: LocaleKeys.register.tr(),
