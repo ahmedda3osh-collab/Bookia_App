@@ -29,6 +29,19 @@
 
 <img width="720" height="1600" alt="Screenshot_٢٠٢٦٠٨٠٥-٠٥٣٢٠٠" src="https://github.com/user-attachments/assets/2e16cedf-2441-4881-bfbd-8a68368d61a4" />
 
+Add            extention                   router     pushname &    update   textformfeild    logic
+
+<img width="720" height="1600" alt="Screenshot_٢٠٢٦٠٨٠٨-١٨٤٣١٤" src="https://github.com/user-attachments/assets/74742f81-f7ad-48ad-b30e-75c537c4f336" />
+
+
+
+
+<img width="720" height="1600" alt="Screenshot_٢٠٢٦٠٨٠٨-٢١٥١٤١" src="https://github.com/user-attachments/assets/9275c9a8-3a06-44e9-9606-582c1aa55159" />
+
+
+
+<img width="720" height="1600" alt="Screenshot_٢٠٢٦٠٨٠٨-١٨٤٣٢١" src="https://github.com/user-attachments/assets/566e2a22-6860-4d95-aef6-027246656443" />
+
 
 
 
