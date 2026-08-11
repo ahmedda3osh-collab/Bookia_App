@@ -42,8 +42,10 @@ Add            extention                   router     pushname &    update   tex
 
 <img width="720" height="1600" alt="Screenshot_٢٠٢٦٠٨٠٨-١٨٤٣٢١" src="https://github.com/user-attachments/assets/566e2a22-6860-4d95-aef6-027246656443" />
 
+a    p      i
 
 
+<img width="1280" height="986" alt="Screenshot 2026-08-11 205346" src="https://github.com/user-attachments/assets/c26791b9-b6fc-45da-a573-b8bd5a50ec26" />
 
 
 
