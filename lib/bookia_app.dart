@@ -7,7 +7,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class BookiaApp extends StatelessWidget {
-  const BookiaApp({super.key});
+  final String? token;
+  const BookiaApp({super.key, this.token});
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +29,7 @@ class BookiaApp extends StatelessWidget {
                 debugShowCheckedModeBanner: false,
                 theme:context.read<ThemeCubit>().appTheme,
                 onGenerateRoute: AppRouter.onGenerateRoute,
-                initialRoute: Routes.welcomeScreen,
+                initialRoute:token==null? Routes.welcomeScreen:Routes.homeScreen,
               );
             },
           ),
