@@ -2,6 +2,7 @@
 
 import 'package:bookia_app/bookia_app.dart';
 import 'package:bookia_app/core/helper/app_constants.dart';
+import 'package:bookia_app/core/networking/dio_factory.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -24,6 +25,8 @@ void main() async {
   await Future.delayed(const Duration(seconds: 3));
   
   FlutterNativeSplash.remove();
+
+  DioFactory.init();
   runApp(EasyLocalization(
     supportedLocales: [Locale('en'), Locale('ar')],
       path: 'assets/translations', 

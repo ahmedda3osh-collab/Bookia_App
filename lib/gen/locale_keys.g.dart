@@ -2,7 +2,7 @@
 
 // ignore_for_file: constant_identifier_names
 
-abstract class LocaleKeys {
+abstract class  LocaleKeys {
   static const splash_screen_title = 'splash_screen_title';
   static const dark_mode = 'dark_mode';
   static const light_mode = 'light_mode';
@@ -13,14 +13,12 @@ abstract class LocaleKeys {
   static const enter_email = 'enter_email';
   static const enter_password = 'enter_password';
   static const forgot_password = 'forgot_password';
-  static const don_t_have_an_account_register_now = 'don’t have an account? Register Now';
-  static const hello_register_to_get_started = 'hello! Register to get started';
   static const username = 'username';
   static const email = 'email';
   static const password = 'password';
   static const confirm_password = 'confirm_password';
-
-  static const already_have_an_account_login_now = 'already_have_an_account? Login Now';
-
+  static const city = 'city';
+  static const address = 'address';
+  static const hello_register_to_get_started='Hello! Register to get started';
 
 }

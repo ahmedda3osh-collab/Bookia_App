@@ -49,6 +49,10 @@ a    p      i
 
 
 
+bash
+dart run easy_localization:generate --source-dir ./assets/translations -f keys -o locale_keys.g.dart -O lib/gen
+
+
 
 
 
